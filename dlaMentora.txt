@@ -1,6 +1,5 @@
-Cześć
+﻿Cześć
 
-Zadanie pierwsze z Node.js jest oczywiście w pliku program.js
-Nie zmieniałem już nazwy pliku by wskazywała na zawartość bo jeszcze nie wiem czy nie będzie do czegoś potrzebna.
+Zadania pogrupowałem w folderach w jednym repo aby było łatwiej szukać
 
 pozdrowienia :)
