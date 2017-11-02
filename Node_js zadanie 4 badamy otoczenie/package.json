@@ -1,0 +1,16 @@
+{
+  "name": "kodilla_4",
+  "version": "1.0.0",
+  "description": "projekt zadanie 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Adam Reszka",
+  "license": "ISC"
+}
