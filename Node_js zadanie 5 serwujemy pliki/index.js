@@ -11,10 +11,11 @@ server.on('request', function (request, response){
         response.end();
     });
   } else {
-    fs.readFile('./404.png','utf-8', function(err, data){
-      response.write(data);
+    fs.readFile('./404.png','binary', function(err, file){
+      response.writeHead(200, {"Content-Type": "image/png"});
       response.statusCode = 404;
-      response.end();
+        response.write(file, "binary");
+        response.end();
     });
 
   }
