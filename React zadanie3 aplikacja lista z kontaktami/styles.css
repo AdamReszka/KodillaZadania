@@ -1,0 +1,157 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  background: -webkit-linear-gradient(#007991,#78ffd6);
+  background: -o-linear-gradient(#007991,#78ffd6);
+  background: -moz-linear-gradient(#007991,#78ffd6);
+  background: linear-gradient(#007991,#78ffd6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.app{
+  margin-top: 6rem;
+}
+.appTitle{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 7.3rem;
+  margin: 4rem 0;
+  text-align: center;
+}
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameRow{
+  width: 64rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.nameRow > input{
+
+}
+input[type=text]{
+  background: none;
+  width: 30rem;
+  height: 4.2rem;
+  border: 0.2rem solid #fff;
+  border-radius: 2.1rem;
+  padding-left: 1.6rem;
+  box-sizing: border-box;
+}
+input[type=text]:focus{
+  background-color: rgba(255,255,255, 0.2);
+}
+input[type=text].email-input{
+  width: 62rem;
+  margin: 2rem 0;
+}
+button[type=submit]{
+  border: none;
+  background: #fff;
+  height: 4.2rem;
+  width: 20rem;
+  border-radius: 2.1rem;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  cursor: pointer;
+  color: #fe4a49;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+button[type=submit]:hover{
+  color: #fff;
+  background: #fe4a49;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+}
+::-moz-placeholder {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+}
+:-ms-input-placeholder {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+}
+:-moz-placeholder {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+}
+.contactsList{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 130rem;
+  margin: 6rem 0 0 0;
+  padding: 0;
+}
+.contactItem{
+  background-color: #fff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 23rem;
+  margin: 0 1.5rem 3rem 1.5rem;
+  padding: 2rem 0;
+  -webkit-box-shadow: 0px 15px 12px -10px rgba(79,79,79,1);
+  -moz-box-shadow: 0px 15px 12px -10px rgba(79,79,79,1);
+  box-shadow: 0px 15px 12px -10px rgba(79,79,79,1);
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  cursor: pointer;
+}
+.contactItem:hover{
+  transform: translateY(-0.8rem);
+  -webkit-box-shadow: 0px 22px 15px -9px rgba(79,79,79,1);
+  -moz-box-shadow: 0px 22px 15px -9px rgba(79,79,79,1);
+  box-shadow: 0px 22px 15px -9px rgba(79,79,79,1);
+}
+.contactItem:hover .imageCont{
+  background-color: #72cdbd;
+}
+.contactImage{
+  width: 11rem;
+  position: relative;
+  top: 5px;
+}
+.imageCont{
+  border-radius: 50%;
+  background-color: #007991;
+  overflow: hidden;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+.contactLabel{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #575757;
+}
+.contactEmail{
+  text-decoration: none;
+  color: #9a9a9a;
+}
+.contactEmail:hover{
+  color: #007991;
+  text-decoration: underline;
+}
