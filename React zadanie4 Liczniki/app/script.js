@@ -15,9 +15,9 @@ var CounterCont = React.createClass({
   },
   render: function() {
     return React.createElement('div',{className: 'counters-box'},
-      React.createElement(Counter),
-      React.createElement(Counter2),
-      React.createElement(Counter3)
+      React.createElement(Counter, {}),
+      React.createElement(Counter, {}),
+      React.createElement(Counter, {})
     );
   },
 

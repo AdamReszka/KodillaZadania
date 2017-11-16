@@ -34,7 +34,7 @@ var Counter = React.createClass({
     return React.createElement('div', {},
       React.createElement('div', {className: 'counter-cont first-cont'},
         React.createElement('div', {className: 'counter-display'},
-          React.createElement('span', {}, 'Top counter ' + this.state.counter)
+          React.createElement('span', {}, 'Counter ' + this.state.counter)
         ),
       ),
       React.createElement('nav',{},
