@@ -7,8 +7,8 @@ const secondWord = 'World';
 console.log(`${firstWord} ${secondWord}`);
 
 //Zadanie 2
-const myMulti = (x,y) => console.log(x*y);
-myMulti(5,3);
+const myMulti = (x,y=1) => console.log(x*y);
+myMulti(5);
 
 //Zadanie 3
 const average = (...args) => {
@@ -25,6 +25,5 @@ average(...grades);
 
 //Zadanie 5
 const diffTypes = [1, 4, 'Iwona', false, 'Nowak'];
-const strTypes = diffTypes.filter(element => typeof element === 'string');
-const [firstName, lastName] = strTypes;
+const [ , ,firstName, ,lastName] = diffTypes;
 console.log(`Hello, my name is ${firstName} ${lastName}`);
