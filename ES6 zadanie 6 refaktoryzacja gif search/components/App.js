@@ -29,7 +29,7 @@ App = React.createClass({
   getGif: function(searchingText) {
     return new Promise(
       function (resolve, reject) {
-        var url = GIPHY_API_URL + '/v1/gifs/random?api_key=' + GIPHY_PUB_KEY + '&tag=' + searchingText;
+        var url = 'http://api.giphy.com/v1/gifs/random?api_key=' + 'yiyfh3SNykDaUmo4rjYFIqbQrrXvKSai' + '&tag=' + searchingText;
         var xhr = new XMLHttpRequest();
         xhr.onload = function () {
           if (this.status === 200) {
