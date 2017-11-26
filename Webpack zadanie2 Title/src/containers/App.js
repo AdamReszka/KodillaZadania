@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      data: []
+      data: ['Zadanie 1','Zadanie 2']
     };
   }
   addTodo(val){
@@ -23,8 +23,7 @@ class App extends React.Component {
   }
   render() {
     return <div className={style.TodoApp}>
-            Tutaj pojawią się moduły naszej aplikacji
-            <Title />
+          <Title todoData={this.state.data}/>
            </div>
   }
 }

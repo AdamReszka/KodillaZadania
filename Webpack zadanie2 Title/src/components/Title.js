@@ -1,10 +1,15 @@
+import React from 'react';
+
 class Title extends React.Component {
   constructor(props){
     super(props);
   }
   render() {
     return (
-      <p>Test</p>
+      <div>
+      <p>Witaj w To-Do App!</p>
+      <p>Wszystkich zadań: {this.props.todoData.length}</p>
+      </div>
     )
   }
 }
