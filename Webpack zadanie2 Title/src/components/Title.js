@@ -7,7 +7,7 @@ class Title extends React.Component {
   render() {
     return (
       <div>
-      <p>Witaj w To-Do App!</p>
+      <p>Witaj w {this.props.todoName}</p>
       <p>Wszystkich zadań: {this.props.todoData.length}</p>
       </div>
     )

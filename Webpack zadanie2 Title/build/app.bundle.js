@@ -7851,7 +7851,7 @@ var App = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: _App2.default.TodoApp },
-        _react2.default.createElement(_Title2.default, { todoData: this.state.data })
+        _react2.default.createElement(_Title2.default, { todoData: this.state.data, todoName: 'To-Do App' })
       );
     }
   }]);
@@ -8093,7 +8093,8 @@ var Title = function (_React$Component) {
         _react2.default.createElement(
           'p',
           null,
-          'Witaj w To-Do App!'
+          'Witaj w ',
+          this.props.todoName
         ),
         _react2.default.createElement(
           'p',

@@ -23,7 +23,7 @@ class App extends React.Component {
   }
   render() {
     return <div className={style.TodoApp}>
-          <Title todoData={this.state.data}/>
+          <Title todoData={this.state.data} todoName="To-Do App"/>
            </div>
   }
 }
