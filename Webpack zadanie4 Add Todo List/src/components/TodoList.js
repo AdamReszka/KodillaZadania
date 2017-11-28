@@ -5,8 +5,12 @@ class TodoList extends React.Component {
     super(props);
   }
   render() {
+    const todos = this.props.todoList.map(item => <p key={item.id}>{item.text}</p>);
+    console.log(todos);
     return (
-      const todos = props => <p>{props.todoList}</p>
+      <div>
+        {todos}
+      </div>
     );
   }
 }
