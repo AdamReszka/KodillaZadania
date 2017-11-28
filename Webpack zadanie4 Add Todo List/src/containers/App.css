@@ -13,3 +13,17 @@
     font-size: 50px;
     font-family: sans-serif;
 }
+.todoItemsList {
+  font-size: 18px;
+  color: #fff;
+}
+.todoItemsList > p {
+  margin: 20px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #173759;
+  cursor: pointer;
+}
+.todoItemsList > p:hover{
+  background-color: #335b86;
+}
