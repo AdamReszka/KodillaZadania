@@ -1,16 +1,21 @@
 import React from 'react';
 import style from '../containers/App.css';
+import Todo from './Todo';
 
 class TodoList extends React.Component {
   constructor(props){
     super(props);
-    this.removeMe = this.removeMe.bind(this);
   }
-  removeMe() {
-    console.log('it works');
-  }
+
   render() {
-    const todos = this.props.todoList.map(item => <p onClick={this.removeMe} key={item.id}>{item.text}</p>);
+    const todos = this.props.todoList.map((item, index) => {
+      return(
+        <div className={style.todoSingleItem}>
+          <Todo removeTodo={this.props.removeTodo} key={item.id} myIndex={index} item={item}/>
+        </div>
+
+      )
+    });
     return (
       <div className={style.todoItemsList}>
         {todos}

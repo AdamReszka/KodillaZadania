@@ -21,6 +21,7 @@ class App extends React.Component {
         text: 'download tor browser'
       }]
     };
+    this.removeTodo = this.removeTodo.bind(this);
   }
   addTodo(val){
     const todo = {
@@ -32,12 +33,12 @@ class App extends React.Component {
   }
   removeTodo(id) {
     const remainder = this.state.data.filter(todo => todo.id !== id);
-    this.setState({data: reminder});
+    this.setState({data: remainder});
   }
   render() {
     return <div className={style.TodoApp}>
           <Title todoData={this.state.data} todoName="To-Do App"/>
-          <TodoList todoList={this.state.data}/>
+          <TodoList todoList={this.state.data} removeTodo={this.removeTodo} />
            </div>
   }
 }
