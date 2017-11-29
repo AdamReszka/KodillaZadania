@@ -1,0 +1,77 @@
+body{
+  background-color: #000;
+}
+.TodoApp {
+    //background-color: #0c232a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.todoItemsList {
+  font-size: 18px;
+  color: #fff;
+}
+.todoItemsList > p {
+  margin: 20px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #173759;
+  cursor: pointer;
+}
+.todoItemsList > p:hover{
+  background-color: #335b86;
+}
+.todoSingleItem{
+  background-color: #475b81;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.todoSingleItem:hover{
+  background-color: #637cac;
+}
+.orderNumber{
+  width: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+.itemButton{
+  height: 100%;
+  width: 100%;
+  padding-right: 10px;
+}
+.itemButton span{
+  padding: 0 10px;
+}
+.titleBelt{
+  display: flex;
+  flex-direction: row;
+}
+.titleBelt > p{
+  padding: 20px;
+}
+.myTodoForm{
+  margin-bottom: 50px;
+}
+.myTodoForm > input[type=text]{
+  width: 240px;
+  height: 30px;
+
+  border: none;
+  padding-left: 16px;
+}
+.myTodoForm > input[type=submit]{
+  height: 34px;
+  width: 80px;
+  cursor: pointer;
+  margin-left: 20px;
+}
