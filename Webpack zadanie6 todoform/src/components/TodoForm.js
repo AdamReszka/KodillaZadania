@@ -13,6 +13,7 @@ class TodoForm extends React.Component {
   addTodo(event) {
     event.preventDefault();
     this.props.addTodo(this.state.value);
+    this.setState({value: ''});
   }
   render() {
     return (
