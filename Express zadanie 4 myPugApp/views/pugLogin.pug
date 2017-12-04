@@ -5,8 +5,16 @@ html
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Muli:200,900&amp;subset=latin-ext')
     title= appTitle
     style
+      include animate.css
       include myPug.css
-  body
+  body.logPage
     include ./pugNav.pug
     div.mainCont
-      p.mainLead tu będzie logowanie
+      p.mainLead.animated.fadeOutUp #{mainLead}
+      form.loginForm.animated.fadeInDown(action="http://localhost:3000/userprofile" method="GET")
+        p.formTitle Zaloguj się
+        label(for="login") login / email:
+        input#login(type="text", name="user_login")
+        label(for="password") hasło:
+        input#password(type="password", name="user_password")
+        input.submitButton(type="submit" value="Zaloguj się")

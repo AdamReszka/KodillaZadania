@@ -22,6 +22,14 @@ app.get('/auth/google', function (req, res){
   });
 });
 
+app.get('/userprofile', function (req, res){
+  res.render('pugProfile', {
+    appTitle: 'myPug App',
+    mainLead: 'unleash the pug',
+    navBut: 'Pug in'
+  });
+});
+
 var server = app.listen(3000, 'localhost', function() {
   var host = server.address().address;
   var port = server.address().port;
