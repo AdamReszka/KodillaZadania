@@ -25,5 +25,5 @@ var server = app.listen(3000, 'localhost', function() {
 });
 
 app.use(function (req, res, next) {
-  res.status(404).send('Wybacz, nie pogliśmy odnaleźć podanego przez ciebie adresu!');
+  res.status(404).send('Wybacz, nie mogliśmy odnaleźć podanego przez ciebie adresu!');
 })
