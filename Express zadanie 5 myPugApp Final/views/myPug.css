@@ -1,0 +1,161 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+.landingPage{
+  background-image: url('./images/pug_bg.jpg');
+}
+.logPage{
+  background-image: url('/images/pug_bg.jpg');
+}
+.profilePage{
+  background-image: url('./images/pug_wallpaper_7.jpg');
+}
+.application-nav{
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(2, 10, 11, 0.6);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.mainLead{
+  color: #fff;
+  margin-top: 36vh;
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-weight: 900;
+  position: relative;
+  z-index: 10;
+}
+.navTitle{
+  padding-bottom: 0.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 200;
+  margin: 0;
+  position: relative;
+  z-index: 20;
+}
+a{
+  text-decoration: none;
+  position: relative;
+}
+nav > a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+.navs{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.navs > li{
+  height: 100%;
+}
+.navs > li > a{
+  height: 100%;
+  display: flex;
+  padding: 0 2rem;
+
+  background: none;
+
+}
+a > .abg{
+  background: -webkit-linear-gradient(left, #00f260, #0575e6);
+  background: -o-linear-gradient(right, #00f260, #0575e6);
+  background: -moz-linear-gradient(right, #00f260, #0575e6);
+  background: linear-gradient(to right, #00f260, #0575e6);
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+a:hover > .abg{
+  opacity: 1;
+}
+.navs > li > a > p{
+  position: relative;
+  z-index: 20;
+  margin: auto;
+  padding-bottom: 0.2rem;
+  font-size: 2.2rem;
+  color: #fff;
+}
+form.loginForm{
+  position: relative;
+  z-index: 50;
+  width: 36rem;
+  min-height: 30rem;
+  background-color: rgba(2,10,11,0.6);
+  bottom: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p.formTitle{
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 2.6rem;
+}
+form.loginForm label{
+  color: #fff;
+  width: 32rem;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+form.loginForm input{
+  width: 32rem;
+  height: 3.2rem;
+  font-size: 1.8rem;
+  padding: 0 0.6rem;
+  color: #252525;
+  box-sizing: border-box;
+}
+form.loginForm input#login{
+  margin-bottom: 0.6rem;
+}
+form.loginForm input#password{
+  margin-bottom: 2rem;
+}
+form.loginForm input.submitButton{
+  width: 20rem;
+  height: 4rem;
+  margin: 1.6rem 0 1rem 0;
+  cursor: pointer;
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  border: none;
+  color: #fff;
+  background-color: #0575e6;
+}
+form.loginForm input.submitButton:hover{
+  background-color: #11be56;
+}
