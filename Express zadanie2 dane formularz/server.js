@@ -6,9 +6,13 @@ var stringifyFile = '';
 
 app.use(bodyParser.json());
 app.use(express.static('assets'));
+app.use(function(req, res, next){
+    console.log('Hej, jestem pośrednikiem między żądaniem a odpowiedzią!');
+    next();
+});
 
 app.get('/', function (req, res) {
-  res.sendFile('/index.html');
+  res.send('Hello world');
 });
 
 app.get('/userform', function (req, res) {
