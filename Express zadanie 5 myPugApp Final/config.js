@@ -5,5 +5,3 @@ module.exports = {
   'GOOGLE_CLIENT_SECRET': 'lk0ghkxqDh2qk1iXNSFpg_qt',
   'CALLBACK_URL': 'http://localhost:3000/auth/google/callback'
 };
-
-exports default config;
