@@ -5789,51 +5789,51 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getCurrentScriptSource, 'getCurrentScriptSource', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(getCurrentScriptSource, 'getCurrentScriptSource', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(sendMsg, 'sendMsg', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(sendMsg, 'sendMsg', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(reloadApp, 'reloadApp', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(reloadApp, 'reloadApp', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(log, 'log', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(log, 'log', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(urlParts, 'urlParts', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(urlParts, 'urlParts', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(hotReload, 'hotReload', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(hotReload, 'hotReload', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(hot, 'hot', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(hot, 'hot', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(initial, 'initial', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(initial, 'initial', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(currentHash, 'currentHash', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(currentHash, 'currentHash', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(useWarningOverlay, 'useWarningOverlay', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(useWarningOverlay, 'useWarningOverlay', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(useErrorOverlay, 'useErrorOverlay', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(useErrorOverlay, 'useErrorOverlay', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(useProgress, 'useProgress', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(useProgress, 'useProgress', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(INFO, 'INFO', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(INFO, 'INFO', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(WARNING, 'WARNING', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(WARNING, 'WARNING', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(ERROR, 'ERROR', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(ERROR, 'ERROR', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(NONE, 'NONE', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(NONE, 'NONE', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(onSocketMsg, 'onSocketMsg', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(onSocketMsg, 'onSocketMsg', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(hostname, 'hostname', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(hostname, 'hostname', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(protocol, 'protocol', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(protocol, 'protocol', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(socketUrl, 'socketUrl', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(socketUrl, 'socketUrl', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 
-  __REACT_HOT_LOADER__.register(isUnloading, 'isUnloading', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:8080');
+  __REACT_HOT_LOADER__.register(isUnloading, 'isUnloading', 'c:/users/adam/Desktop/KODILLA KURS/Chat/node_modules/webpack-dev-server/client/index.js?http://localhost:3000');
 }();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, "?http://localhost:8080"))
+/* WEBPACK VAR INJECTION */}.call(exports, "?http://localhost:3000"))
 
 /***/ }),
 /* 45 */
