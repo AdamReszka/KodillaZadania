@@ -34,9 +34,9 @@ export function thumbUpComment(commentId) {
     id: commentId
   }
 }
-export function thumbDownComment() {
+export function thumbDownComment(commentId) {
   return {
     type: THUMB_DOWN_COMMENT,
-
+    id: commentId
   }
 }
