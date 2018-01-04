@@ -28,15 +28,15 @@ function removeComment(id) {
     id: id //id komentarza, który chcemy usunąć
   }
 }
-function thumbUpComment() {
+function thumbUpComment(id) {
   return {
     type: THUMB_UP_COMMENT,
-
+    id
   }
 }
-function thumbDownComment() {
+function thumbDownComment(id) {
   return {
     type: THUMB_DOWN_COMMENT,
-
+    id
   }
 }
