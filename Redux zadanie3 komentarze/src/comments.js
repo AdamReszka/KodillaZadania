@@ -37,6 +37,7 @@ function reducer(state = [], action) {
               votes: comment.votes + 1
             }
           }
+          return comment;
         });
 
     case THUMB_DOWN_COMMENT:
@@ -47,6 +48,7 @@ function reducer(state = [], action) {
             votes: comment.votes - 1
           }
         }
+        return comment;
       });
     default:
       return state;
