@@ -8151,11 +8151,11 @@ exports = module.exports = __webpack_require__(37)(undefined);
 
 
 // module
-exports.push([module.i, "\r\n._1yWMblMhcoxIcFRQVWQUoB {\r\n    background-color: #F5F5F5;\r\n    color: #222;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    font-size: 50px;\r\n    font-family: sans-serif;\r\n}\r\n", ""]);
+exports.push([module.i, "\n._2xo2biYT1s9XQmHhT2Utv5 {\n    background-color: #F5F5F5;\n    color: #222;\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    justify-content: center;\n    align-items: center;\n    align-content: center;\n    width: 100vw;\n    height: 100vh;\n    font-size: 50px;\n    font-family: sans-serif;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"TodoApp": "_1yWMblMhcoxIcFRQVWQUoB"
+	"TodoApp": "_2xo2biYT1s9XQmHhT2Utv5"
 };
 
 /***/ }),
